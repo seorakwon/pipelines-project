@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 34,
+   "execution_count": 25,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -21,7 +21,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 35,
+   "execution_count": 26,
    "metadata": {},
    "outputs": [
     {
@@ -140,7 +140,7 @@
        "</html>"
       ]
      },
-     "execution_count": 35,
+     "execution_count": 26,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -155,7 +155,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 36,
+   "execution_count": 27,
    "metadata": {},
    "outputs": [
     {
@@ -175,7 +175,7 @@
        " <a href=\"http://www.planecrashinfo.com/index.html\">Return to Home Page</a>]"
       ]
      },
-     "execution_count": 36,
+     "execution_count": 27,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -187,7 +187,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 37,
+   "execution_count": 28,
    "metadata": {},
    "outputs": [
     {
@@ -216,7 +216,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 38,
+   "execution_count": 29,
    "metadata": {},
    "outputs": [
     {
@@ -309,7 +309,7 @@
        "</table>"
       ]
      },
-     "execution_count": 38,
+     "execution_count": 29,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -322,7 +322,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 39,
+   "execution_count": 30,
    "metadata": {},
    "outputs": [
     {
@@ -331,7 +331,7 @@
        "bs4.element.Tag"
       ]
      },
-     "execution_count": 39,
+     "execution_count": 30,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -342,7 +342,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 40,
+   "execution_count": 31,
    "metadata": {
     "scrolled": true
    },
@@ -387,7 +387,7 @@
        "0  04 Oct 2019  Lviv, UkraineUkraine Air Alliance \\n"
       ]
      },
-     "execution_count": 40,
+     "execution_count": 31,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -417,7 +417,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 41,
+   "execution_count": 32,
    "metadata": {},
    "outputs": [
     {
@@ -462,7 +462,7 @@
        "0  04 Oct 2019  Ukraine Air Alliance  2019"
       ]
      },
-     "execution_count": 41,
+     "execution_count": 32,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -475,58 +475,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 43,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/html": [
-       "<div>\n",
-       "<style scoped>\n",
-       "    .dataframe tbody tr th:only-of-type {\n",
-       "        vertical-align: middle;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe tbody tr th {\n",
-       "        vertical-align: top;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe thead th {\n",
-       "        text-align: right;\n",
-       "    }\n",
-       "</style>\n",
-       "<table border=\"1\" class=\"dataframe\">\n",
-       "  <thead>\n",
-       "    <tr style=\"text-align: right;\">\n",
-       "      <th></th>\n",
-       "      <th>Year</th>\n",
-       "      <th>Operator</th>\n",
-       "    </tr>\n",
-       "  </thead>\n",
-       "  <tbody>\n",
-       "    <tr>\n",
-       "      <th>0</th>\n",
-       "      <td>2019</td>\n",
-       "      <td>Ukraine Air Alliance</td>\n",
-       "    </tr>\n",
-       "  </tbody>\n",
-       "</table>\n",
-       "</div>"
-      ],
-      "text/plain": [
-       "   Year              Operator\n",
-       "0  2019  Ukraine Air Alliance"
-      ]
-     },
-     "execution_count": 43,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "data4 = accident[['Year', 'Operator']]\n",
-    "data4"
-   ]
+   "outputs": [],
+   "source": []
   },
   {
    "cell_type": "code",
