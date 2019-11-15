@@ -4,12 +4,15 @@ import re
 import numpy as np
 import pandas as pd
 
-def Scrape():
-    def GetSoup(url):
+
+def GetSoup(url):
         res = requests.get(url)
         html = res.text
         soup = BeautifulSoup(html, 'html.parser')
         return soup
+
+def Scrape():
+
 
     url = 'http://www.planecrashinfo.com/2019/2019.htm'
 
@@ -30,4 +33,4 @@ def Scrape():
     accident = pd.DataFrame(accidents)
     accident['Year'] = accident.Date.str[-4:]
     accident['Operator'] = accident.Operator.str[13:-2]
-    accident
+    return accident

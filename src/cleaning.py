@@ -11,6 +11,5 @@ def database():
     data1['Year'] = data1['Date'].dt.year
     data1 = data1[data1['Year'] > 1969]
     data2 = data1[["Year","Operator"]].reset_index()
-    data = data2
-    data
+    return data2
 

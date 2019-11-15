@@ -22,3 +22,5 @@ def check_year(year: int):
  
     if year < 1969 or year > 2019:
         sys.exit('only years between 1970 and 2019 are allowed')
+    else:
+        a=input('Wrong year. Enter a valid year between 1970 and 2019')
